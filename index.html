@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Tomato's Website</title>
+</head>
+<body>
+    <header>
+        <a href = "#main-content" class="skip">Skip to Main Content</a>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href = "pets.html">Pets</a></li>
+                <li><a href = "recipes.html">Recipes</a></li>
+                <li><a href = "travel.html">Travel</a></li>
+            </ul>
+        </nav>
+        <h1>CCP-Mobile Assignment</h1>
+
+    </header>
+    <main id="main-content">
+        
+        
+        <div>
+            <p class="index-p">Welcome to Tomato's Website, your go-to destination for all things pets, recipes, and travel! <br>
+                Explore a world of captivating content where we cater to your love for furry companions, culinary delights, and globetrotting adventures. </p>
+               
+        </div>
+        
+        <div class="index-video">
+        <video autoplay muted loop id="myVideo">
+            <source src="images/home_vedio.mp4" type="video/mp4">
+            Your browser does not support HTML5 video. This is one hand-drawn animation.
+          </video>
+          <button id="myBtn_1" onclick="myFunction()">Pause</button>
+        </div>
+
+    </main>
+    
+    <footer>
+        <p>Fangqing Lin &copy; 2024</p>
+    </footer>
+
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
+
+</body>
+</html>
