@@ -407,12 +407,9 @@ footer {
     list-style: none;
     border: none;
     background-color: transparent;
-    padding: auto;
     margin: auto;
    }
-   .main-ul ul {
-    padding: auto;
-   }
+ 
    .fig1 {
     grid-column: 1 / span 2;
     height: fit-content;
@@ -653,12 +650,9 @@ footer {
         list-style: none;
         border: none;
         background-color: transparent;
-        padding: auto;
         margin: auto;
     }
-    .recipe-ingredients ul {
-        padding: auto;
-    }
+   
     .recipe-description {
         grid-area: 3/4/span 1/span 4;
         background-color: rgba(4, 61, 49, 0.4);
